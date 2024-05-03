@@ -10,7 +10,7 @@ namespace AI_ZH_II
     {
         static void Main(string[] args)
         {
-            Game game = new Game(new MiniMaxSolver(3));
+            Game game = new Game(new MiniMaxABPruneSolver(4));
             game.ColorfulPlay();
             Console.ReadLine();
         }

@@ -50,6 +50,10 @@ namespace AI_ZH_II
                 {
                     currentState = AIsMove(currentState);
                 }
+                /*
+                currentState = AIsMove(currentState);
+                ColorfulPrint(currentState.ToString());
+                */
                 playersMove = !playersMove;
             }
             Console.Clear();
